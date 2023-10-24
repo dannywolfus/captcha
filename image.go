@@ -58,11 +58,11 @@ func NewImage(id string, digits []byte, width, height int) *Image {
 		x += m.numWidth + m.dotSize
 	}
 	// Draw strike-through line.
-	m.strikeThrough()
+	// m.strikeThrough()
 	// Apply wave distortion.
-	m.distort(m.rng.Float(5, 10), m.rng.Float(100, 200))
+	// m.distort(m.rng.Float(5, 10), m.rng.Float(100, 200))
 	// Fill image with random circles.
-	m.fillWithCircles(circleCount, m.dotSize)
+	// m.fillWithCircles(circleCount, m.dotSize)
 	return m
 }
 
